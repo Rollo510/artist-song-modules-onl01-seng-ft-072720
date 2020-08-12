@@ -11,7 +11,7 @@ def count
 end
 
   
-    def initialize
+def initialize
       self.class.all << self
     end
   end
